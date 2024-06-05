@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Panarras del Mundo</title>
+	<style type="text/css">
+
+		#cabezon_izquierda{
+			background-color: #000;
+			float: left;
+			width: 50% ;
+			height: 400px;
+		}
+
+		#cabezon_derecha{
+			background-color: #000;
+			float: right;
+			width: 50%;
+			height: 400px;
+			text-align: center;	
+		}
+		.foto_portada{
+			height: 400px;
+
+		}
+		.foto_logo{
+			height: 150px;
+
+		}
+		.mensaje_1{
+			color: white;
+			font-size: 3.5em;
+		}
+		.mensaje_2{
+			color: white;
+			font-size: 1.2em;
+			margin-top: 3%;
+		}
+		#btn_subscribe{
+			color: white;
+			background-color: #153B7C;
+			width: 120px;
+			height: 32px;
+			margin: 50px auto;
+			border-radius: 50px;
+		}
+		#elem_menu{
+			background-color: #979291;
+			float: left;
+			width: 5%;
+			color: white;
+		}
+		#relleno_menu{
+			width: 80%;
+			float: left;
+			background-color: #979291;
+		}
+		section{
+			border: 1px;
+
+		}
+		#bloque_galletas{
+			width: 20%;
+			float:left;
+			margin-top: 100px;
+			margin-left: 4%;
+			text-align: center;
+		}
+		#foto_galleta{
+			height: 200px;
+			border-radius: 200px;
+
+		}
+		#nombre_pan{
+			height: 40px;
+			color: white;
+			background-color: #0A59AD;
+			font-size: 1.8em;
+		}
+
+		#precio_pan{
+			height: 40px;
+			color: black;
+			background-color: #B8DBF0;
+			font-size: 1.6em;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<div id="cabezon_izquierda">
+			<img class="foto_portada" src="./imagenes/Foto_de_portada.png" alt="foto de pan">
+		</div>
+		<div id="cabezon_derecha">
+			<img class="foto_logo" src="./imagenes/logoPanarra.png" alt="logo de tienda">
+		<div class="mensaje_1">
+			Panarras del Mundo
+		</div>
+		<div class="mensaje_2">
+			Recetas y curiosidades relacionadas con los panes.
+		</div>
+		<a href="Página_Subcribirse"><div id="btn_subscribe">Subscribete</div></a>
+		</div>
+
+	</header>
+	<nav>
+		<div id="relleno_menu">&nbsp;</div>
+		<a href="inicio.html"><div id="elem_menu">Inicio</div></a>
+		<a href="tienda.html"><div id="elem_menu">Tienda</div></a>
+		<a href="recetas.html"><div id="elem_menu">Recetas</div></a>
+		<a href="trucos.html"><div id="elem_menu">Trucos</div></a>
+	</nav>
+	
+	<main>
+		<article>
+			<section id="bloque_galletas">
+				<div><img id="foto_galleta" src="./imagenes/barra_de_pan.webp"></div>
+				<div id="nombre_pan">Barra de pan</div>
+				<div id="precio_pan">0,40€</div>
+			</section>
+			<section id="bloque_galletas">
+				<div><img id="foto_galleta" src="./imagenes/pan_payes.jpg"></div>
+				<div id="nombre_pan">Pan Payes</div>
+				<div id="precio_pan">1,80€</div>
+			</section>
+			<section id="bloque_galletas">
+				<div><img id="foto_galleta" src="./imagenes/pan_pita.png"></div>
+				<div id="nombre_pan">Pan Pita</div>
+				<div id="precio_pan">1,30€</div>
+			</section>
+			<section id="bloque_galletas">
+				<div><img id="foto_galleta" src="./imagenes/pan_candela.jpg"></div>
+				<div id="nombre_pan">Pan Candela</div>
+				<div id="precio_pan">2,50€</div>
+			</section>
+		</article>
+
+	</main>
+	<footer></footer>
+
+</body>
+</html>
